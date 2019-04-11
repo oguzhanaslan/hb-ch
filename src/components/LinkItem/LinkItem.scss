@@ -1,0 +1,84 @@
+.linkItem {
+  background: #fff;
+  padding: 20px;
+  margin-bottom: 10px;
+  min-height: 100px;
+  display: flex;
+  border-radius: 3px;
+  justify-content: space-between;
+  align-content: center;
+  position: relative;
+  transition: all .1s ease-in;
+  &:hover {
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.12);
+    .remove-btn {
+      visibility: initial;
+    }
+  }
+  .point-left {
+    width: 25%;
+    min-height: 100%;
+    margin-right: 20px;
+    .point {
+      background: #ccc;
+      border: 1px solid #ddd;
+      min-height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      border-radius: 5px;
+    }
+    .point-count {
+      font-size: 26px;
+      font-weight: 700;
+    }
+  }
+  .point-right {
+    flex-grow: 1;
+    flex-direction: column;
+    display: flex;
+    h3 {
+      color: #000;
+      font-weight: 700;
+      font-size: 20px;
+    }
+    .link {
+      font-weight: 300;
+      font-size: 12px;
+      color: #868686;
+    }
+    .title {
+      flex: 1;
+    }
+    .vote {
+      flex: 0;
+      display: flex;
+      div {
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+        &:hover {
+          color: red;
+        }
+        &:first-child {
+          margin-right: 20px;
+        }
+      }
+    }
+  }
+}
+
+.remove-btn {
+  visibility: hidden;
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  transition: all .2s ease-in;
+  img {
+    max-width: 100%;
+  }
+}

@@ -1,0 +1,11 @@
+export const ADD_GAME = 'ADD_GAME';
+export const SORT_LINKS = 'SORT_LINKS';
+export const SORT_SELECT_CHANGE = 'SORT_SELECT_CHANGE';
+export const VOTE_UP = 'VOTE_UP';
+export const VOTE_DOWN = 'VOTE_DOWN';
+export const ADD_LINK = 'ADD_LINK';
+export const REMOVE_LINK = 'REMOVE_LINK';
+export const NEXT_PAGE = 'NEXT_PAGE';
+export const PREV_PAGE = 'PREV_PAGE';
+export const PAGE_CHANGE = 'PAGE_CHANGE';
+export const TOTAL_PAGE = 'TOTAL_PAGE';

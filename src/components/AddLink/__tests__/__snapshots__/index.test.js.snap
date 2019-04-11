@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Footer Test should render snapshot 1`] = `
+<div>
+  <form
+    className="form"
+    onSubmit={[Function]}
+  >
+    <div
+      className="form-group"
+    >
+      <input
+        name="title"
+        onChange={[Function]}
+        placeholder="Title"
+        type="text"
+        value=""
+      />
+    </div>
+    <div
+      className="form-group"
+    >
+      <input
+        name="type"
+        onChange={[Function]}
+        placeholder="Type"
+        type="text"
+        value=""
+      />
+    </div>
+    <div
+      className="form-group"
+    >
+      <button
+        className="submit"
+        type="submit"
+      >
+        Send
+      </button>
+    </div>
+    <div
+      className="form-group"
+    >
+      <button
+        className="reset"
+        onClick={[Function]}
+        type="button"
+      >
+        Reset
+      </button>
+    </div>
+  </form>
+</div>
+`;

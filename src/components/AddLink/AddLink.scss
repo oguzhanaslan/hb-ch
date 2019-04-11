@@ -1,0 +1,50 @@
+.form {
+  display: flex;
+  flex-direction: column;
+
+  h3 {
+    font-size: 30px;
+    padding: 20px 0;
+    font-weight: 700;
+  }
+  .form-group {
+    margin-bottom: 20px;
+    input {
+      background: #fff;
+      width: 100%;
+      border: none;
+      border: 1px solid #ccc;
+      box-shadow: inset 0 2px 5px 0 rgba(0, 0, 0, 0.07);
+      border-radius: 3px;
+      padding: 10px 15px;
+      font-size: 16px;
+    }
+    .submit {
+      background: #7ed321;
+      cursor: pointer;
+      border-radius: 3px;
+      color: #fff;
+      padding: 10px 15px;
+      border: none;
+      font-size: 16px;
+      transition: all .2s ease-in;
+      &:hover {
+        background: darken(#7ed321, 20%);
+      }
+    }
+  }
+  .reset {
+    margin-left: 10px;
+    background: #fcfcfc;
+    color: #000;
+    padding: 5px;
+    cursor: pointer;
+  }
+}
+
+.error {
+  font-size: 12px;
+  color: red;
+  display: block;
+  text-align: left;
+}
