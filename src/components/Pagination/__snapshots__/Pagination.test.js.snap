@@ -1,0 +1,225 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pagination should render correctly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Pagination />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <li
+          className=""
+          onClick={[Function]}
+        >
+          <a
+            href="#"
+          >
+            Prev
+          </a>
+        </li>,
+        Array [],
+        <li
+          className="disabled"
+          onClick={[Function]}
+        >
+          <a
+            href="#"
+          >
+            Next
+          </a>
+        </li>,
+      ],
+      "className": "pagination",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <a
+            href="#"
+          >
+            Prev
+          </a>,
+          "className": "",
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Prev",
+            "href": "#",
+          },
+          "ref": null,
+          "rendered": "Prev",
+          "type": "a",
+        },
+        "type": "li",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <a
+            href="#"
+          >
+            Next
+          </a>,
+          "className": "disabled",
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Next",
+            "href": "#",
+          },
+          "ref": null,
+          "rendered": "Next",
+          "type": "a",
+        },
+        "type": "li",
+      },
+    ],
+    "type": "ul",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <li
+            className=""
+            onClick={[Function]}
+          >
+            <a
+              href="#"
+            >
+              Prev
+            </a>
+          </li>,
+          Array [],
+          <li
+            className="disabled"
+            onClick={[Function]}
+          >
+            <a
+              href="#"
+            >
+              Next
+            </a>
+          </li>,
+        ],
+        "className": "pagination",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <a
+              href="#"
+            >
+              Prev
+            </a>,
+            "className": "",
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Prev",
+              "href": "#",
+            },
+            "ref": null,
+            "rendered": "Prev",
+            "type": "a",
+          },
+          "type": "li",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <a
+              href="#"
+            >
+              Next
+            </a>,
+            "className": "disabled",
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Next",
+              "href": "#",
+            },
+            "ref": null,
+            "rendered": "Next",
+            "type": "a",
+          },
+          "type": "li",
+        },
+      ],
+      "type": "ul",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+  Symbol(enzyme.__childContext__): null,
+}
+`;
